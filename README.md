@@ -1,5 +1,5 @@
 
-# Sonder India — A Travel Discovery Website
+# Sonder India : A Travel Discovery Website
 
 ## Project Overview
 
