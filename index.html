@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Discover India's most beautiful destinations with Sonder India, a curated travel journal.">
+
+    <title>Sonder India | A Journey Through India</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="site-header">
+    <a href="#home" class="logo">sonder<span>.</span></a>
+
+    <button class="menu-toggle"
+            id="menu-toggle"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="nav-links">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#journal">Travel Journal</a>
+        <a href="#about">About</a>
+        <a href="#favorites" class="nav-favorites">
+            Saved <span id="saved-count">0</span>
+        </a>
+    </nav>
+</header>
+
+
+<main>
+
+    <section class="hero" id="home">
+
+        <img
+                class="hero-image"
+                src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=2000&q=85"
+                alt="Traditional houseboats and green landscapes in Kerala"
+        >
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <p class="eyebrow light-text">
+                A TRAVEL JOURNAL · INDIA
+            </p>
+
+            <h1>Find yourself<br>somewhere <em>new.</em></h1>
+
+            <p class="hero-description">
+                From quiet mountain mornings to sunlit coastal towns,
+                discover the places that stay with you.
+            </p>
+
+          
+        </div>
+
+        <div class="hero-caption">
+            <span>01 / THE SOUTH</span>
+            <span>KERALA, INDIA</span>
+        </div>
+    </section>
+
+
+    <section class="intro section-padding">
+        <p class="eyebrow">TRAVEL, MORE THOUGHTFULLY</p>
+
+        <h2>
+            Not just places to visit.<br>
+            <em>Stories to experience.</em>
+        </h2>
+
+        <p class="intro-description">
+            Sonder is a collection of journeys across India —
+            thoughtful guides, unforgettable landscapes, and little
+            moments that make travelling worthwhile.
+        </p>
+    </section>
+
+
+    <section class="destinations section-padding" id="destinations">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">YOUR NEXT CHAPTER</p>
+                <h2>Places worth <em>getting lost in.</em></h2>
+            </div>
+
+            <span class="section-note">CURATED WITH CARE · INDIA</span>
+        </div>
+
+        <div class="destination-grid">
+
+            <article class="destination-card">
+                <div class="destination-image-wrap">
+                    <img
+                            src="https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?auto=format&fit=crop&w=900&q=80"
+                            alt="Historic palace architecture in Rajasthan"
+                            loading="lazy"
+                    >
+
+                    <button class="favorite-button"
+                            type="button"
+                            aria-label="Save Rajasthan to favorites"
+                            aria-pressed="false"
+                            data-name="Rajasthan">
+                        <span aria-hidden="true">♡</span>
+                    </button>
+
+                    <span class="image-number">01</span>
+                </div>
+
+                <div class="card-info">
+                    <div>
+                        <p class="card-location">RAJASTHAN · NORTH INDIA</p>
+                        <h3>Royal Rajasthan</h3>
+                    </div>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <p class="card-description">
+                    Golden deserts, timeless forts and colourful
+                    streets full of history.
+                </p>
+            </article>
+
+
+            <article class="destination-card">
+                <div class="destination-image-wrap">
+                    <img
+                            src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?auto=format&fit=crop&w=900&q=80"
+                            alt="Mountain scenery and lakes in Kashmir"
+                            loading="lazy"
+                    >
+
+                    <button class="favorite-button"
+                            type="button"
+                            aria-label="Save Kashmir to favorites"
+                            aria-pressed="false"
+                            data-name="Kashmir">
+                        <span aria-hidden="true">♡</span>
+                    </button>
+
+                    <span class="image-number">02</span>
+                </div>
+
+                <div class="card-info">
+                    <div>
+                        <p class="card-location">KASHMIR · NORTH INDIA</p>
+                        <h3>The Quiet North</h3>
+                    </div>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <p class="card-description">
+                    Still lakes, snow-covered peaks and mornings
+                    surrounded by mountains.
+                </p>
+            </article>
+
+
+            <article class="destination-card">
+                <div class="destination-image-wrap">
+                    <img
+                            src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=900&q=80"
+                            alt="Lush green Kerala backwaters"
+                            loading="lazy"
+                    >
+
+                    <button class="favorite-button"
+                            type="button"
+                            aria-label="Save Kerala to favorites"
+                            aria-pressed="false"
+                            data-name="Kerala">
+                        <span aria-hidden="true">♡</span>
+                    </button>
+
+                    <span class="image-number">03</span>
+                </div>
+
+                <div class="card-info">
+                    <div>
+                        <p class="card-location">KERALA · SOUTH INDIA</p>
+                        <h3>Slow Days in Kerala</h3>
+                    </div>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <p class="card-description">
+                    Palm-lined waterways, quiet villages and
+                    tropical green landscapes.
+                </p>
+            </article>
+
+
+            <article class="destination-card">
+                <div class="destination-image-wrap">
+                    <img
+                            src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=900&q=80"
+                            alt="Coastal scenery and beach in Goa"
+                            loading="lazy"
+                    >
+
+                    <button class="favorite-button"
+                            type="button"
+                            aria-label="Save Goa to favorites"
+                            aria-pressed="false"
+                            data-name="Goa">
+                        <span aria-hidden="true">♡</span>
+                    </button>
+
+                    <span class="image-number">04</span>
+                </div>
+
+                <div class="card-info">
+                    <div>
+                        <p class="card-location">GOA · WEST INDIA</p>
+                        <h3>Coastal Living</h3>
+                    </div>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <p class="card-description">
+                    Sandy shores, colourful neighbourhoods and
+                    unhurried afternoons by the sea.
+                </p>
+            </article>
+
+
+            <article class="destination-card">
+                <div class="destination-image-wrap">
+                    <img
+                            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+                            alt="Green hills and a scenic natural landscape"
+                            loading="lazy"
+                    >
+
+                    <button class="favorite-button"
+                            type="button"
+                            aria-label="Save Meghalaya to favorites"
+                            aria-pressed="false"
+                            data-name="Meghalaya">
+                        <span aria-hidden="true">♡</span>
+                    </button>
+
+                    <span class="image-number">05</span>
+                </div>
+
+                <div class="card-info">
+                    <div>
+                        <p class="card-location">MEGHALAYA · NORTHEAST INDIA</p>
+                        <h3>Into the Green</h3>
+                    </div>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <p class="card-description">
+                    Misty hills, waterfalls and trails through
+                    some of India's lushest landscapes.
+                </p>
+            </article>
+
+
+            <article class="destination-card">
+                <div class="destination-image-wrap">
+                    <img
+                            src="https://images.unsplash.com/photo-1477587458883-47145ed94245?auto=format&fit=crop&w=900&q=80"
+                            alt="Traditional Indian architecture and historic streets"
+                            loading="lazy"
+                    >
+
+                    <button class="favorite-button"
+                            type="button"
+                            aria-label="Save Varanasi to favorites"
+                            aria-pressed="false"
+                            data-name="Varanasi">
+                        <span aria-hidden="true">♡</span>
+                    </button>
+
+                    <span class="image-number">06</span>
+                </div>
+
+                <div class="card-info">
+                    <div>
+                        <p class="card-location">VARANASI · NORTH INDIA</p>
+                        <h3>Stories by the Ganges</h3>
+                    </div>
+                    <span class="card-arrow" aria-hidden="true">↗</span>
+                </div>
+
+                <p class="card-description">
+                    Ancient lanes, riverside steps and a city
+                    shaped by centuries of tradition.
+                </p>
+            </article>
+
+        </div>
+    </section>
+
+
+    <section class="journal section-padding" id="journal">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">THE TRAVEL JOURNAL</p>
+                <h2>A little inspiration <em>for the road.</em></h2>
+            </div>
+        </div>
+
+        <div class="carousel" id="carousel">
+
+            <div class="carousel-image-wrap">
+                <img
+                        id="carousel-image"
+                        src="https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1600&q=85"
+                        alt="Kerala backwaters"
+                >
+                <span class="carousel-counter" id="carousel-counter">
+                        01 / 03
+                    </span>
+            </div>
+
+            <div class="carousel-bottom">
+                <div>
+                    <p class="eyebrow" id="carousel-location">
+                        KERALA · SOUTH INDIA
+                    </p>
+
+                    <h3 id="carousel-title">
+                        The beauty of slowing down.
+                    </h3>
+
+                    <p id="carousel-description">
+                        Let the water set the pace and discover
+                        the quieter side of travel.
+                    </p>
+                </div>
+
+                <div class="carousel-controls">
+                    <button id="carousel-prev"
+                            type="button"
+                            aria-label="Previous destination">
+                        ←
+                    </button>
+
+                    <button id="carousel-next"
+                            type="button"
+                            aria-label="Next destination">
+                        →
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="favorites section-padding" id="favorites">
+        <p class="eyebrow">YOUR PERSONAL COLLECTION</p>
+
+        <h2>Places to <em>keep close.</em></h2>
+
+        <p class="favorites-intro">
+            Save the places that catch your eye.
+            Your travel wish list lives here.
+        </p>
+
+        <div class="favorites-list" id="favorites-list">
+            <p class="empty-favorites">
+                Your list is waiting for its first adventure.
+                Tap the heart on any destination to save it.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="about-content">
+            <p class="eyebrow light-text">A NOTE FROM SONDER</p>
+
+            <h2>Travel is not just about where you go.<br>
+                <em>It's what you take with you.</em>
+            </h2>
+
+            <p>
+                Sonder India is a student-built travel discovery
+                website celebrating the landscapes, cultures and
+                stories that make India extraordinary.
+            </p>
+
+            <a href="#destinations" class="button button-outline">
+                Find your next destination ↗
+            </a>
+        </div>
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+    <a href="#home" class="logo">sonder<span>.</span></a>
+
+    <p>A little closer to somewhere beautiful.</p>
+
+    <a href="#home" class="back-to-top">BACK TO TOP ↑</a>
+
+    <p class="copyright">
+        © <span id="current-year"></span> Sonder India.
+        A student web development project.
+    </p>
+</footer>
+
+</body>
+</html>
