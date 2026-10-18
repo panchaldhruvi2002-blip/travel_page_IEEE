@@ -33,13 +33,6 @@ and people looking for inspiration for their next trip.
 - Unsplash — travel photography
 - GitHub Pages — website deployment
 
-## Project Structure
-
-sonder-india/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
 
 ## How to Run Locally
 
